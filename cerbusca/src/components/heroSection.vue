@@ -4,7 +4,7 @@
       <h1>Cancer</h1>
       <p>noi facem cancer cancer cancer cancer</p>
 
-      <router-link to="/contact-us">
+      <router-link to="/form">
         <button>Fa testul!</button>
       </router-link>
     </div>
