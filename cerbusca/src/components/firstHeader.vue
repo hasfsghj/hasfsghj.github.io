@@ -1,7 +1,7 @@
 <template>
 <header>
     <div class="logo">
-      <router-link to="/"><h1>Cancer</h1></router-link>
+      <h1>Cancer</h1>
     </div>
     <nav class="navigation">
       <router-view>
@@ -36,7 +36,7 @@ header {
 
 
 header {
-  background-color: #708871;
+  background-color: #9ad4d6;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,7 +46,8 @@ header {
 .logo h1 {
   margin: 0;
   font-size: 24px;
-  color: #333;
+  color: #101935;
+  text-decoration: none;
 }
 
 .navigation ul {
@@ -62,25 +63,21 @@ header {
 
 .navigation a {
   text-decoration: none;
-  color: #333;
+  color: #101935;
   font-size: 16px;
   transition: color 0.3s ease;
 }
 
-.navigation a:hover {
-  color: #073108; /* Change color on hover */
-}
-
 .logo {
-  margin-right: 720px; /* Space between logo and menu */
+  margin-right: 720px;
 }
 
 .logo h1 {
   margin: 0;
   font-size: 24px;
-  color: white; /* White color for text */
+  color: #101935;
   position: relative;
-  top: 2px; /* Fine-tune positioning */
+  top: 2px;
   font-family: "Fraunces", serif;
 }
 
@@ -95,7 +92,7 @@ header {
 
 .navigation a {
   text-decoration: none;
-  color: white; /* White color for menu items */
+  color: #101935; 
   font-size: 18px;
   font-weight: 700;
   position: relative;
@@ -103,21 +100,21 @@ header {
 }
 
 .navigation a::after {
-  content: ""; /* Empty content for underline */
+  content: "";
   display: block;
   width: 0;
   height: 2px;
-  background: white; /* White underline */
+  background: #17294a;
   transition: width 0.3s ease;
   position: absolute;
-  bottom: -5px; /* Position it just below the text */
+  bottom: -5px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .navigation a:hover::after,
 .navigation a:focus::after {
-  width: 100%; /* Full width on hover */
+  width: 100%;
 }
 </style>
 

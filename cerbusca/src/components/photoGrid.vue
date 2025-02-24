@@ -35,7 +35,7 @@
         </div>
     </div>
     <br>
-    <h1>mai spunem poate ceva pe aici idk</h1>
+    <h1 class="head1">mai spunem poate ceva pe aici idk</h1>
     <br>
     <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium excepturi quis veritatis animi
         fugit,
@@ -56,11 +56,22 @@
 </template>
 
 <style>
+
+.head1 {
+    color:#564787;
+}
+
+body {
+    background-color: #fff6f6;
+}
+
 .desc {
     padding: 0px 50px 0px 50px;
+    color:#78689C;
 }
 
 .txt {
+    color:#dbcbd8;
     position: absolute;
     top: 0;
     left: 0;
@@ -70,7 +81,6 @@
     transition: opacity 0.3s ease;
     width: 275px;
     padding-left: 25px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .txt:hover {

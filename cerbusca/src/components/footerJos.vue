@@ -17,9 +17,10 @@
 </template>
 
 <style>
+
 .footer {
-  background-color: #606676;
-  color: #a6a6a6;
+  background-color: #dbcbd8;
+  color:#564787;
   padding: 20px;
   display: flex;
   justify-content: space-between;

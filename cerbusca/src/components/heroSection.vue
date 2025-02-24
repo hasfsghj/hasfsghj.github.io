@@ -5,7 +5,7 @@
       <p>noi facem cancer cancer cancer cancer</p>
 
       <router-link to="/form">
-        <button>Fa testul!</button>
+        <button><strong>Fa testul!</strong></button>
       </router-link>
     </div>
   </div>
@@ -29,7 +29,7 @@
   top: 50%;
   left: 240px;
   transform: translateY(-50%);
-  color: white;
+  color: #fff6f6;
   max-width: 600px;
 }
 
@@ -37,7 +37,7 @@
   margin: 0;
   line-height: 1.5;
   font-size: 24px;
-  color:rgb(255, 255, 255);
+  color:#fff6f6;
 }
 
 .hero-text button {
@@ -45,8 +45,8 @@
   outline: 0;
   display: inline-block;
   padding: 12px 32px;
-  color: rgb(100, 89, 81);
-  background-color: rgba(212, 200, 177, 0.851);
+  color: #101935;
+  background-color: #9ad4d6;
   text-align: center;
   cursor: pointer;
   border-radius: 10px;
@@ -55,6 +55,6 @@
 }
 
 .hero-text button:hover {
-  background-color: #9e8969e8;
+  background-color: #4791b9e8;
 }
 </style>
